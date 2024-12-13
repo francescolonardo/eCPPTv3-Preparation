@@ -62,9 +62,8 @@
 
 ### 09 [Active Directory Penetration Testing](./09_active_directory_penetration_testing.md)
 
-- [x] Active Directory Primer
 - [x] Active Directory Penetration Testing Methodology
-- [x] Active Directory Enumeration (BloodHound, PowerView)
+- [x] Active Directory Enumeration (with BloodHound, PowerView)
 - [x] Active Directory Privilege Escalation (AS-REP Roasting, Kerberoasting)
 - [x] Active Directory Lateral Movement (Pass-the-Hash, Pass-the-Ticket)
 - [x] Active Directory Persistence (Silver Ticket, Golden Ticket)
