@@ -94,7 +94,25 @@
 
 ### 08 [Lateral Movement and Pivoting](./08_lateral_movement_and_pivoting.md)
 
-- [x] 
+- [x] Introduction to Lateral Movement and Pivoting
+- [x] Windows Lateral Movement
+	- [x] Windows Lateral Movement Techniques
+	- [x] Windows Lateral Movement with PsExec
+	- [x] Windows Lateral Movement with SMBExec
+	- [x] Windows Lateral Movement with CrackMapExec
+	- [x] Windows Lateral Movement via RDP
+	- [x] Windows Lateral Movement via WinRM
+	- [x] Windows Lateral Movement with Metasploit
+	- [x] Windows Lateral Movement with WMIExec
+- [x] Linux Lateral Movement
+	- [x] Linux Lateral Movement Techniques
+- [x] Pivoting
+	- [x] Pivoting and Port Forwarding with Metasploit
+	- [x] Pivoting with SOCKS Proxy
+	- [x] Pivoting via SSH Tunneling
+	- [x] Pivoting with reGeorg
+- [x] Linux Lateral Movement and Pivoting
+	- [x] Linux Lateral Movement and Pivoting: Black-Box Penetration Test (with SOCKS Proxy, SSH Tunneling, Metasploit)
 
 ## Red Teaming
 
