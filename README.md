@@ -1,4 +1,4 @@
-# eLearnSecurity Certified Professional Penetration Tester (eCPPTv3)
+# eLearnSecurity Certified Professional Penetration Tester (eCPPTv3) Preparation
 
 ## Resource Development and Initial Access
 
