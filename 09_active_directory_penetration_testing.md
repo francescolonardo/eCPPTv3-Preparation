@@ -2098,6 +2098,8 @@ RICKY_CONLEY      NORMAL_ACCOUNT, DONT_REQ_PREAUTH
 
 ### AS-REP Roasting - Theory/Lab
 
+#### AS-REP Roasting
+
 **AS-REP Roasting** is a technique used to exploit a weakness in the Kerberos authentication protocol, commonly used in Windows Active Directory environments. <u>AS-REP Roasting specifically targets a vulnerability in the way Kerberos handles authentication requests</u>.
 
 In the Kerberos protocol, when a user wants to authenticate to a service, he send an Authentication Service Request (AS-REQ) to the Key Distribution Center (KDC). The KDC then responds with an <u>Authentication Service Reply (AS-REP), which includes a ticket-granting ticket (TGT). The TGT is encrypted using the user's password hash</u>.
@@ -2105,6 +2107,18 @@ In the Kerberos protocol, when a user wants to authenticate to a service, he sen
 AS-REP Roasting takes advantage of the fact that <u>some user accounts in Active Directory may have the "Do not require Kerberos preauthentication" option enabled. This option allows the AS-REP to be requested without the need for the user's password</u>.
 
 <u>The attacker queries the Active Directory to find accounts with the "Do not require Kerberos preauthentication" option enabled, and requests an AS-REP for these accounts. Since the TGT is encrypted with the user's password hash, the attacker can attempt to crack it offline to obtain the plaintext password</u>.
+
+#### Rubeus
+
+**Rubeus** is <u>a tool used for Kerberos-related tasks and attacks</u> within a Windows Active Directory environment. It is often used by penetration testers and security professionals to perform various actions, including:
+
+1. **Kerberos Ticket Extraction and Injection**: Rubeus can extract Kerberos tickets (TGTs and service tickets) from memory and inject them back into memory, facilitating lateral movement within a network.
+2. **Pass-the-Ticket Attacks**: It enables attackers to use stolen Kerberos tickets to authenticate to other systems without needing the user's plaintext password. 
+3. **Kerberoasting**: Rubeus can request service tickets for service accounts and extract the ticket hashes, which can then be cracked offline to retrieve service account passwords.
+4. **Overpass-the-Hash (Pass-the-Key)**: It allows users to perform Overpass-the-Hash attacks, where NTLM hashes are used to request Kerberos tickets.
+5. **Ticket Renewal and Harvesting**: The tool can renew tickets and gather all available tickets from memory, aiding in persistence and ongoing access.
+
+Overall, Rubeus is a powerful tool for exploiting and manipulating the Kerberos authentication protocol, making it valuable for both offensive security operations and defensive security assessments to identify potential vulnerabilities and weaknesses in Kerberos implementations.
 
 #### Lab Environment
 
@@ -4916,23 +4930,6 @@ d-----        9/27/2021   9:19 AM                Windows
 
 The command `dir \prod.research.security.local\c$` is used to perform a directory listing of the root directory (C drive) on the domain controller named "prod.research.security.local".
 By executing this command, you are attempting to access and list the contents of the root directory (C:) on the specified domain controller.
-
----
----
-
-## Active Directory Penetration Testing - Extras
-
-### Rubeus Tool
-
-**Rubeus** is <u>a tool used for Kerberos-related tasks and attacks</u> within a Windows Active Directory environment. It is often used by penetration testers and security professionals to perform various actions, including:
-
-1. **Kerberos Ticket Extraction and Injection**: Rubeus can extract Kerberos tickets (TGTs and service tickets) from memory and inject them back into memory, facilitating lateral movement within a network.
-2. **Pass-the-Ticket Attacks**: It enables attackers to use stolen Kerberos tickets to authenticate to other systems without needing the user's plaintext password. 
-3. **Kerberoasting**: Rubeus can request service tickets for service accounts and extract the ticket hashes, which can then be cracked offline to retrieve service account passwords.
-4. **Overpass-the-Hash (Pass-the-Key)**: It allows users to perform Overpass-the-Hash attacks, where NTLM hashes are used to request Kerberos tickets.
-5. **Ticket Renewal and Harvesting**: The tool can renew tickets and gather all available tickets from memory, aiding in persistence and ongoing access.
-
-Overall, Rubeus is a powerful tool for exploiting and manipulating the Kerberos authentication protocol, making it valuable for both offensive security operations and defensive security assessments to identify potential vulnerabilities and weaknesses in Kerberos implementations.
 
 ---
 ---
