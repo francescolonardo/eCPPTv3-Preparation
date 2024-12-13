@@ -32,7 +32,7 @@
 - [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based and Union-Based)
 - [x] Automated Reconnaissance Framework (Amass)
 
-## Security
+## Network Security
 
 ### 04 [Network Penetration Testing](./04_network_penetration_testing.md)
 
