@@ -10,14 +10,25 @@
 
 - [x] Introduction to Client-Side Attacks
 - [x] Client-Side Information Gathering and Fingerprinting
-- [x] Introduction to Social Engineering Techniques
-- [x] Introduction to Pretexting Techniques
-- [x] Phishing (with GoPhish)
-- [x] VBA Macro Development
-- [x] Generating Malicious MS Word Documents (Manual and with MacroPack)
-- [x] HTML Application (HTA) Attacks
-- [x] File Smuggling with HTML and JavaScript
-- [x] Browser-Based Attacks (with BeEF)
+- [x] Social Engineering
+	- [x] Introduction to Social Engineering Techniques
+	- [x] Introduction to Pretexting Techniques
+	- [x] Phishing (with GoPhish)
+- [x] Development and Weaponization 
+	- [x] VBA Macro Development (Manual)
+	- [x] Weaponizing VBA Macros (with Metasploit)
+	- [x] VBA PowerShell Dropper
+	- [x] VBA Reverse Shell Macro (with Powercat)
+	- [x] Using ActiveX Controls for Macro Execution
+	- [x] Pretexting Phishing Documents (with office-phish-templates)
+	- [x] Automating Macro Development (Manual and with MacroPack)
+	- [x] HTML Application (HTA) Attacks (with MSFvenom)
+- [x] Delivery and Execution
+	- [x] File Smuggling with HTML and JavaScript (with MSFvenom)
+	- [x] Initial Access via Spear Phishing Attachment (with MSFvenom)
+	- [x] Client-Side Black-Box Penetration Test (with Nmap, MSFvenom, Metasploit)
+- [x] Browser Attacks
+	- [x] Browser-Based Attacks (with BeEF)
 
 ## Web Application Attacks
 
