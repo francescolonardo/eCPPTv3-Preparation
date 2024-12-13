@@ -2,16 +2,19 @@
 
 ## Resource Development and Initial Access
 
-### PowerShell for Pentesters
+### 01 [PowerShell for Pentesters](./assets/01_powershell_for_pentesters.md)
+
 - [x] PowerShell Fundamentals
 - [x] PowerShell for Pentesting
 
-### Client-Side Attacks
-- [x]
+### 02 [Client-Side Attacks](./assets/02_client_side_attacks.md)
 
-## Web Application Penetration Attacks
+- [x] 
 
-### Web Application Penetration Testing
+## Web Application Attacks
+
+### 03 [Web Application Penetration Testing](./assets/03_web_application_penetration_testing.md)
+
 - [x] Passive Information Gathering
 - [x] Active Information Gathering
 - [x] Web Application Enumeration and Fingerprinting
@@ -21,13 +24,35 @@
 - [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based and Union-Based)
 - [x] Automated Reconnaissance Framework (Amass)
 
+## Security
 
+### 04 [Network Penetration Testing](./assets/04_network_penetration_testing.md)
 
+- [x] 
 
+## Exploit Development
+
+### 05 [System Security and x86 Assembly Fundamentals](./assets/05_system_security_and_x86_assembly_fundamentals.md)
+
+- [x] 
+
+### 06 [Buffer Overflows](./assets/06_buffer_overflows.md)
+
+- [x] 
+
+## Post-Exploitation
+
+### 07 [Privilege Escalation](./assets/07_privilege_escalation.md)
+
+- [x] 
+
+### 08 [Lateral Movement and Pivoting](./assets/08_lateral_movement_and_pivoting.md)
+
+- [x] 
 
 ## Red Teaming
 
-### Active Directory Penetration Testing
+### 09 [Active Directory Penetration Testing](./assets/09_active_directory_penetration_testing.md)
 
 - [x] Active Directory Primer
 - [x] Active Directory Penetration Testing Methodology
@@ -36,6 +61,10 @@
 - [x] Active Directory Lateral Movement (Pass-the-Hash, Pass-the-Ticket)
 - [x] Active Directory Persistence (Silver Ticket, Golden Ticket)
 
-## Command and Control
+## 10 [Command and Control (C2/C&C)](./assets/10_command_and_control.md)
 
+- [x] 
+
+---
+---
 
