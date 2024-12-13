@@ -90,7 +90,21 @@
 
 ### 07 [Privilege Escalation](./07_privilege_escalation.md)
 
-- [x] 
+- [x] Introduction to Privilege Escalation
+- [x] Windows Privilege Escalation Techniques
+	- [x] Privilege Escalation Scripts (PowerUp, PrivescCheck)
+	- [x] Locally Stored Credentials (Unattended Installation Files, Windows Credential Manager, PowerShell History)
+	- [x] Insecure Service Permissions
+	- [x] Windows Registry AutoRuns
+	- [x] Bypassing UAC (UACme)
+	- [x] Impersonation Attacks (Incognito, Juicy Potato)
+	- [x] DLL Hijacking
+- [x] Linux Privilege Escalation Techniques
+	- [x] Locally Stored Credentials
+	- [x] Misconfigured File Permissions
+	- [x] SUID Binaries
+	- [x] Misconfigured SUDO Permissions
+	- [x] Shared Library Injection
 
 ### 08 [Lateral Movement and Pivoting](./08_lateral_movement_and_pivoting.md)
 
