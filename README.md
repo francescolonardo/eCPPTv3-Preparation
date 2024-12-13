@@ -23,24 +23,41 @@
 
 ### 03 [Web Application Penetration Testing](./03_web_application_penetration_testing.md)
 
-- [x] Ownership and IP Addresses Discovery (with WHOIS)
-- [x] Website Fingerprinting (with Netcraft)
-- [x] Passive DNS Enumeration (with DNSRecon)
-- [x] Reviewing Webserver Metafiles for Information Leakage (Manual)
-- [x] Web App Technology Fingerprinting (with BuiltWith/Wappalyzer/WhatWeb)
-- [x] Passive Crawling (with Burp Suite)
-- [x] Web Server Fingerprinting (with Nmap/Metasploit)
-- [x] Web Server Vulnerability Scanning (with Nikto)
-- [x] File and Directory Brute-Force Attacks (with Gobuster)
-- [x] Automated Web Reconnaissance (with OWASP Amass)
-- [x] Identifying and Exploiting XSS Vulnerabilities (Stored, Reflected, DOM-Based)
-- [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based, Union-Based)
+- [x] Passive Information Gathering
+- [x] Active Information Gathering
+- [x] Web Application Enumeration and Fingerprinting
+- [x] Web Server Fingerprinting and Vulnerability Scanning
+- [x] File and Directory Brute Force Attacks
+- [x] Identifying and Exploiting XSS Vulnerabilities (Stored, Reflected and DOM-Based)
+- [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based and Union-Based)
+- [x] Automated Reconnaissance Framework (Amass)
 
 ## Security
 
 ### 04 [Network Penetration Testing](./04_network_penetration_testing.md)
 
-- [x] 
+- [x] Host Discovery and Port Scanning
+	- [x] Host Discovery (with FPing/Nmap)
+	- [x] Port Scanning (with Nmap)
+	- [x] Service Version and OS Detection (with Nmap)
+	- [x] Nmap Scripting Engine (NSE)
+	- [x] Firewall Detection and IDS Evasion (with Nmap)
+	- [x] Optimizing Nmap Scans: Scan Timing and Performance
+	- [x] Nmap Output Formats
+- [x] Windows and Linux Enumeration
+	- [x] Windows Enumeration: SMB and NetBIOS Enumeration (with Nmap, smbclient)
+	- [x] Windows Enumeration: SNMP Enumeration (with Nmap, snmpwalk)
+	- [x] Linux Service Enumeration (with Nmap, SMTP-user-enum, smbmap, rpcclient, Metasploit, finger-user-enum)
+- [x] Windows Exploitation
+	- [x] Windows Exploitation: DNS and SMB Relay Attack (with dnsspoof, arpspoof, Metasploit)
+	- [x] Windows Exploitation: MSSQL DB User Impersonation to RCE (with Nmap, impacket-mssqlclient)
+- [x] Linux Exploitation
+	- [x] Linux Black-Box Penetration Test (with Nmap, Metasploit)
+- [x] Windows Post-Exploitation
+	- [x] Windows Post-Exploitation: Dumping and Cracking NTLM Hashes (with Nmap, Metasploit, JohntheRipper/Hashcat)
+	- [x] Windows Black-Box Penetration Test (with Nmap, Metasploit, proxychains, xfreerdp)
+- [x] MITM and Network-Based Attacks
+- [x] Antivirus Evasion (with UPX and Veil-Framework)
 
 ## Exploit Development
 
@@ -78,4 +95,3 @@
 
 ---
 ---
-
