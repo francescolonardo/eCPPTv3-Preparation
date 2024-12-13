@@ -9,7 +9,16 @@
 
 ### 02 [Client-Side Attacks](./assets/02_client_side_attacks.md)
 
-- [x] 
+- [x] Introduction to Client-Side Attacks
+- [x] Client-Side Information Gathering and Fingerprinting
+- [x] Introduction to Social Engineering Techniques
+- [x] Introduction to Pretexting Techniques
+- [x] Phishing (with GoPhish)
+- [x] VBA Macro Development
+- [x] Generating Malicious MS Word Documents (Manual and with MacroPack)
+- [x] HTML Application (HTA) Attacks
+- [x] File Smuggling with HTML and JavaScript
+- [x] Browser-Based Attacks (with BeEF)
 
 ## Web Application Attacks
 
