@@ -6,14 +6,25 @@
 
 - Introduction to Client-Side Attacks
 - Client-Side Information Gathering and Fingerprinting
-- Introduction to Social Engineering Techniques
-- Introduction to Pretexting Techniques
-- Phishing (with GoPhish)
-- VBA Macro Development
-- Generating Malicious MS Word Documents (Manual and with MacroPack)
-- HTML Application (HTA) Attacks
-- File Smuggling with HTML and JavaScript
-- Browser-Based Attacks (with BeEF)
+- Social Engineering
+	- Introduction to Social Engineering Techniques
+	- Introduction to Pretexting Techniques
+	- Phishing (with GoPhish)
+- Development and Weaponization 
+	- VBA Macro Development (Manual)
+	- Weaponizing VBA Macros (with Metasploit)
+	- VBA PowerShell Dropper
+	- VBA Reverse Shell Macro (with Powercat)
+	- Using ActiveX Controls for Macro Execution
+	- Pretexting Phishing Documents (with office-phish-templates)
+	- Automating Macro Development (Manual and with MacroPack)
+	- HTML Application (HTA) Attacks (with MSFvenom)
+- Delivery and Execution
+	- File Smuggling with HTML and JavaScript (with MSFvenom)
+	- Initial Access via Spear Phishing Attachment (with MSFvenom)
+	- Client-Side Black-Box Penetration Test (with Nmap, MSFvenom, Metasploit)
+- Browser Attacks
+	- Browser-Based Attacks (with BeEF)
 
 ### Prerequisites
 
@@ -33,6 +44,7 @@
 - You will be able to develop and customize your own Macro enabled MS Office documents for use in obtaining initial access.
 - You will be able to leverage HTML Applications for initial access.
 
+---
 ---
 
 ## Introduction to Client-Side Attacks
@@ -672,7 +684,7 @@ Unlike traditional phishing attacks, which cast a wide net and aim to deceive as
    - The content of the messages may reference recent events, projects, or activities relevant to the target's role or interests to enhance credibility.
    - Attackers may impersonate trusted individuals, such as colleagues, supervisors, or external partners, to increase the likelihood of the targets opening the messages and taking the desired actions.
 
-### Pretexting - Theory
+### Introduction to Pretexting - Theory
 
 #### What is Pretexting?
 
@@ -1082,7 +1094,7 @@ In the context of VBA (Visual Basic for Applications), <u>WScript can be utilize
 - **Exploiting Vulnerabilities:** Macros can exploit vulnerabilities in client-side applications, such as Microsoft Office, by leveraging features like macro scripting, ActiveX controls, and embedded objects. Vulnerabilities in these features can be exploited to execute arbitrary code on the victim's system.
 - **Payload Delivery:** Malicious macros often serve as a payload delivery mechanism, facilitating the execution of malware or other malicious actions on the victim's system. Once macros are enabled, they can download and execute additional payloads from remote servers, leading to further compromise.
 
-### VBA Macro Development - Lab
+### VBA Macro Development (Manual) - Lab
 
 #### Lab Solution
 
@@ -1945,7 +1957,7 @@ End Sub
 
 And save the document as a Word 97-2003 Document.
 
-### Pretexting Phishing Documents - Theory
+### Pretexting Phishing Documents (with office-phish-templates) - Theory
 
 There is an online resource called [Office Phish Templates and Defense Recommendations](https://github.com/martinsohn/Office-phish-templates) that provides Microsoft Office phishing templates designed to reduce suspicion from target users. These templates use various methods, such as making the files appear legitimate, to trick users into enabling macro execution.
 
@@ -2121,7 +2133,7 @@ Sub ExecuteHTA()
 End Sub
 ```
 
-### HTA Attacks - Lab
+### HTML Applications (HTA) Attacks (with MSFvenom) - Lab
 
 #### Lab Solution
 
@@ -2733,7 +2745,7 @@ HTML smuggling is often used to bypass security controls by hiding the malicious
 
 **Reconstruction and Execution:** Once the HTML content reaches the target's browser, the payload is reconstructed and executed. This could involve JavaScript logic to decode and reassemble the payload, leading to various outcomes, such as executing malicious scripts or downloading additional payloads.
 
-### Windows - File Smuggling with HTML and JavaScript - Lab
+### Windows: File Smuggling with HTML and JavaScript (with MSFvenom) - Lab
 
 #### Lab Environment
 
@@ -2860,7 +2872,7 @@ Logged On Users : 1
 Meterpreter     : x86/windows
 ```
 
-### Initial Access via Spear Phishing Attachment - Lab
+### Initial Access via Spear Phishing Attachment (with MSFvenom) - Lab
 
 #### Lab Solution
 
@@ -3029,7 +3041,7 @@ Logged On Users : 4
 Meterpreter     : x86/windows
 ```
 
-### Client-Side Exploitation - Lab
+### Client-Side Black-Box Penetration Test (with Nmap, MSFvenom, Metasploit) - Lab
 
 #### Lab Environment
 
@@ -3502,7 +3514,7 @@ Server username: NT AUTHORITY\SYSTEM
 
 ## Browser Attacks
 
-### Establishing a Shell through the Victim's Browser - Lab
+### Establishing a Shell through the Victim's Browser (with BeEF) - Lab
 
 #### Lab Environment
 
