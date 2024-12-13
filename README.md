@@ -4,8 +4,7 @@
 
 ### 01 [PowerShell for Pentesters](./01_powershell_for_pentesters.md)
 
-- [x] PowerShell Fundamentals
-- [x] PowerShell for Pentesting
+- [x] 
 
 ### 02 [Client-Side Attacks](./02_client_side_attacks.md)
 
