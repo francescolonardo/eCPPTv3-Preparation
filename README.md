@@ -140,7 +140,25 @@
 
 ## 10 [Command and Control (C2/C&C)](./10_command_and_control.md)
 
-- [x] 
+- [x] Command and Control Primer
+	- [x] Introduction to Command and Control
+	- [x] Introduction to C2 Frameworks
+- [x] Understanding C2 Frameworks
+	- [x] How C2 Frameworks Work
+	- [x] C2 Framework Terminology
+	- [x] C2 Infrastructure Deployment and Operations
+	- [x] The C2 Matrix: Choosing the Correct C2 Framework
+- [x] PowerShell Empire and Starkiller
+	- [x] Introduction to PowerShell-Empire
+	- [x] Introduction to Starkiller
+	- [x] Red Team Operations with PowerShell-Empire
+	- [x] Red Team Operations with Starkiller
+- [x] Custom C2 Protocol
+	- [x] Custom C2 Protocol (with Merlin)
+- [x] C2 Frameworks: Armitage
+	- [x] Introduction to Armitage
+	- [x] Port Scanning and Enumeration with Armitage
+	- [x] Exploitation and Post Exploitation with Armitage
 
 ---
 ---
