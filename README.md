@@ -2,12 +2,12 @@
 
 ## Resource Development and Initial Access
 
-### 01 [PowerShell for Pentesters](./assets/01_powershell_for_pentesters.md)
+### 01 [PowerShell for Pentesters](./01_powershell_for_pentesters.md)
 
 - [x] PowerShell Fundamentals
 - [x] PowerShell for Pentesting
 
-### 02 [Client-Side Attacks](./assets/02_client_side_attacks.md)
+### 02 [Client-Side Attacks](./02_client_side_attacks.md)
 
 - [x] Introduction to Client-Side Attacks
 - [x] Client-Side Information Gathering and Fingerprinting
@@ -22,7 +22,7 @@
 
 ## Web Application Attacks
 
-### 03 [Web Application Penetration Testing](./assets/03_web_application_penetration_testing.md)
+### 03 [Web Application Penetration Testing](./03_web_application_penetration_testing.md)
 
 - [x] Passive Information Gathering
 - [x] Active Information Gathering
@@ -35,33 +35,33 @@
 
 ## Security
 
-### 04 [Network Penetration Testing](./assets/04_network_penetration_testing.md)
+### 04 [Network Penetration Testing](./04_network_penetration_testing.md)
 
 - [x] 
 
 ## Exploit Development
 
-### 05 [System Security and x86 Assembly Fundamentals](./assets/05_system_security_and_x86_assembly_fundamentals.md)
+### 05 [System Security and x86 Assembly Fundamentals](./05_system_security_and_x86_assembly_fundamentals.md)
 
 - [x] 
 
-### 06 [Buffer Overflows](./assets/06_buffer_overflows.md)
+### 06 [Buffer Overflows](./06_buffer_overflows.md)
 
 - [x] 
 
 ## Post-Exploitation
 
-### 07 [Privilege Escalation](./assets/07_privilege_escalation.md)
+### 07 [Privilege Escalation](./07_privilege_escalation.md)
 
 - [x] 
 
-### 08 [Lateral Movement and Pivoting](./assets/08_lateral_movement_and_pivoting.md)
+### 08 [Lateral Movement and Pivoting](./08_lateral_movement_and_pivoting.md)
 
 - [x] 
 
 ## Red Teaming
 
-### 09 [Active Directory Penetration Testing](./assets/09_active_directory_penetration_testing.md)
+### 09 [Active Directory Penetration Testing](./09_active_directory_penetration_testing.md)
 
 - [x] Active Directory Primer
 - [x] Active Directory Penetration Testing Methodology
@@ -70,7 +70,7 @@
 - [x] Active Directory Lateral Movement (Pass-the-Hash, Pass-the-Ticket)
 - [x] Active Directory Persistence (Silver Ticket, Golden Ticket)
 
-## 10 [Command and Control (C2/C&C)](./assets/10_command_and_control.md)
+## 10 [Command and Control (C2/C&C)](./10_command_and_control.md)
 
 - [x] 
 
