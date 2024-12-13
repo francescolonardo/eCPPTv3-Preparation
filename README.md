@@ -24,13 +24,19 @@
 ### 03 [Web Application Penetration Testing](./03_web_application_penetration_testing.md)
 
 - [x] Passive Information Gathering
+	- [x] Ownership and IP Addresses Discovery (with WHOIS)
+	- [x] Website Fingerprinting (with Netcraft)
+	- [x] Passive DNS Enumeration (with DNSRecon)
+	- [x] Reviewing Webserver Metafiles for Information Leakage (Manual)
+	- [x] Web App Technology Fingerprinting (with BuiltWith/Wappalyzer/WhatWeb)
+	- [x] Passive Crawling (with Burp Suite)
 - [x] Active Information Gathering
-- [x] Web Application Enumeration and Fingerprinting
-- [x] Web Server Fingerprinting and Vulnerability Scanning
-- [x] File and Directory Brute Force Attacks
-- [x] Identifying and Exploiting XSS Vulnerabilities (Stored, Reflected and DOM-Based)
-- [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based and Union-Based)
-- [x] Automated Reconnaissance Framework (Amass)
+	- [x] Web Server Fingerprinting (with Nmap/Metasploit)
+	- [x] Web Server Vulnerability Scanning (with Nikto)
+	- [x] File and Directory Brute-Force Attacks (with Gobuster)
+	- [x] Automated Web Reconnaissance (with OWASP Amass)
+- [x] Identifying and Exploiting XSS Vulnerabilities (Stored, Reflected, DOM-Based)
+- [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based, Union-Based)
 
 ## Network Security
 
