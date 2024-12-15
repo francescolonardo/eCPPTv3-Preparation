@@ -173,6 +173,8 @@
 	- [x] Port Scanning and Enumeration with Armitage
 	- [x] Exploitation and Post Exploitation with Armitage
 
+---
+
 ![eCPPTv3 Exam Topics](./assets/00_ecpptv3_exam_topics.png)
 
 ---
