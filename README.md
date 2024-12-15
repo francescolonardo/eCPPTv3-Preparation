@@ -161,7 +161,7 @@
 	- [x] C2 Framework Terminology
 	- [x] C2 Infrastructure Deployment and Operations
 	- [x] The C2 Matrix: Choosing the Correct C2 Framework
-- [x] PowerShell Empire and Starkiller
+- [x] PowerShell-Empire and Starkiller
 	- [x] Introduction to PowerShell-Empire
 	- [x] Introduction to Starkiller
 	- [x] Red Team Operations with PowerShell-Empire
