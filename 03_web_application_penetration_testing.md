@@ -4,16 +4,18 @@
 
 ### Course Topic Overview
 
-- Ownership and IP Addresses Discovery (with WHOIS)
-- Website Fingerprinting (with Netcraft)
-- Passive DNS Enumeration (with DNSRecon)
-- Reviewing Webserver Metafiles for Information Leakage (Manual)
-- Web App Technology Fingerprinting (with BuiltWith/Wappalyzer/WhatWeb)
-- Passive Crawling (with Burp Suite)
-- Web Server Fingerprinting (with Nmap/Metasploit)
-- Web Server Vulnerability Scanning (with Nikto)
-- File and Directory Brute-Force Attacks (with Gobuster)
-- Automated Web Reconnaissance (with OWASP Amass)
+- Passive Information Gathering
+	- Ownership and IP Addresses Discovery (with WHOIS)
+	- Website Fingerprinting (with Netcraft)
+	- Passive DNS Enumeration (with DNSRecon)
+	- Reviewing Webserver Metafiles for Information Leakage (Manual)
+	- Web App Technology Fingerprinting (with BuiltWith/Wappalyzer/WhatWeb)
+	- Passive Crawling (with Burp Suite)
+- Active Information Gathering
+	- Web Server Fingerprinting (with Nmap/Metasploit)
+	- Web Server Vulnerability Scanning (with Nikto)
+	- File and Directory Brute-Force Attacks (with Gobuster)
+	- Automated Web Reconnaissance (with OWASP Amass)
 - Identifying and Exploiting XSS Vulnerabilities (Stored, Reflected, DOM-Based)
 - Identifying and Exploiting SQLi Vulnerabilities (Error-Based, Union-Based)
 
@@ -34,6 +36,7 @@
 - You will learn how to utilize automated tools and web proxies to identify and exploit XSS vulnerabilities in web applications.
 - You will be able to identify and exploit In-Band SQL Injection vulnerabilities (Error-Based SQLi and UNION-Based SQLi).
 
+---
 ---
 
 ## Passive Information Gathering
@@ -2850,7 +2853,7 @@ The following steps provide a systematic approach to finding SQL Injection vulne
 
 ### Exploiting Error-Based SQL Injection Vulnerabilities - Theory/Lab
 
-![SQL Injection Types - Error-Based](03_web_application_penetration_testing_sqli_types_error_based.png)
+![SQL Injection Types - Error-Based](./assets/03_web_application_penetration_testing_sqli_types_error_based.png)
 
 #### In-Band SQL Injection
 
@@ -2860,7 +2863,7 @@ In other words, the attacker injects malicious SQL code into the web application
 
 In-band SQL injection attacks are dangerous because they can be used to steal sensitive information, modify or delete data, or take over the entire web application or even the entire server.
 
-![In-Band SQL Injection](03_web_application_penetration_testing_sqli_in_band.png)
+![In-Band SQL Injection](./assets/03_web_application_penetration_testing_sqli_in_band.png)
 
 #### Error Based SQL Injection
 
@@ -2884,7 +2887,7 @@ Identifying error-based SQL injection vulnerabilities involves testing the web a
 
 5. **Exploit the vulnerability**. Exploit the information gathered through error-based SQL injection to further exploit the application, gain unauthorized access, or perform other malicious actions.
 
-![Error-Based SQL Injection](03_web_application_penetration_testing_sqli_error_based.png)
+![Error-Based SQL Injection](./assets/03_web_application_penetration_testing_sqli_error_based.png)
 
 #### SQLMap
 
@@ -3402,7 +3405,7 @@ The MySQL Server version is revealed.
 
 ### Exploiting Union-Based SQL Injection Vulnerabilities - Theory/Lab
 
-![SQL Injection Types - Union-Based](03_web_application_penetration_testing_sqli_types_union_based.png)
+![SQL Injection Types - Union-Based](./assets/03_web_application_penetration_testing_sqli_types_union_based.png)
 
 #### Union-Based SQL Injection
 
