@@ -4,7 +4,11 @@
 
 ### 01 [PowerShell for Pentesters](./01_powershell_for_pentesters.md)
 
-- [x] 
+- [x] Buffer Overflow Fundamentals
+- [x] Finding Buffer Overflow Vulnerabilities
+- [x] Stack-Based Overflows
+- [x] Windows Structured Exception Handling (SEH) Overflow
+- [x] Windows SEH Overflow (with SPIKE)
 
 ### 02 [Client-Side Attacks](./02_client_side_attacks.md)
 
