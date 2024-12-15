@@ -12,7 +12,7 @@
 	- C2 Framework Terminology
 	- C2 Infrastructure Deployment and Operations
 	- The C2 Matrix: Choosing the Correct C2 Framework
-- PowerShell Empire and Starkiller
+- PowerShell-Empire and Starkiller
 	- Introduction to PowerShell-Empire
 	- Introduction to Starkiller
 	- Red Team Operations with PowerShell-Empire
@@ -39,6 +39,7 @@
 - You will have the ability to install, configure, and effectively use PowerShell-Empire and Starkiller for Red Team operations in Windows environments.
 - You will have the knowledge and experience in using some of the most popular C2 Frameworks available.
 
+---
 ---
 
 ## Command and Control Primer
@@ -379,7 +380,7 @@ By using these filters and comparing the options, you can efficiently identify t
 
 ---
 
-## C2 Frameworks: PowerShell Empire and Starkiller
+## C2 Frameworks: PowerShell-Empire and Starkiller
 
 ### Introduction to PowerShell-Empire - Theory
 
@@ -389,7 +390,7 @@ Empire 4 is a pure PowerShell C2/post-exploitation framework built on cryptologi
 
 Empire implements the ability to run PowerShell agents without needing powershell.exe, provides you with rapidly deployable post-exploitation modules ranging from keyloggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework.
 
-Empire 4 includes a pure-PowerShell Windows agent, Python 3.x Linux/OS X agents, and C# agents. It is the merger of the previous PowerShell Empire and Python EmPyre projects.
+Empire 4 includes a pure-PowerShell Windows agent, Python 3.x Linux/OS X agents, and C# agents. It is the merger of the previous PowerShell-Empire and Python EmPyre projects.
 
 PowerShell-Empire was recently updated and is now officially supported and maintained by Kali Linux, more information regarding the update can be found here:
 [https://www.kali.org/blog/empire-starkiller](https://www.kali.org/blog/empire-starkiller/)
@@ -502,7 +503,7 @@ Starkiller is a Frontend for Powershell-Empire. It is an Electron application wr
 
 We have always worked to support the information security community as a whole, and over the years experimented with different ideas (some with a greater success than others). One of the key components to Kali is the tools included (either pre-installed or installed via apt). Joining together infosec professional/hobbyist and tool authors, today we are announcing another partnership: **Kali has partnered with BC Security.**
 
-BC Security is the team who is currently maintaining the most active fork of Empire. In August 2019, the original maintainers archived the project, but with Open-source projects (as long as they don’t break software licenses) other groups can take someone else's code and improve upon it. This is exactly what BC Security did, forking the project, to keep the flame of PowerShell Empire alive.
+BC Security is the team who is currently maintaining the most active fork of Empire. In August 2019, the original maintainers archived the project, but with Open-source projects (as long as they don’t break software licenses) other groups can take someone else's code and improve upon it. This is exactly what BC Security did, forking the project, to keep the flame of PowerShell-Empire alive.
 
 ### Red Team Operations with PowerShell-Empire - Lab
 
