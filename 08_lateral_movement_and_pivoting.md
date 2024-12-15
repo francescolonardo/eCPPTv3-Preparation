@@ -87,7 +87,7 @@ By pivoting, attackers can leverage the compromised system's network connections
 
 Techniques for pivoting include setting up port forwarding, using SSH tunnels, exploiting VPNs or other network bridging methods, or configuring proxy servers on the compromised host.
 
-![Pivoting Visualized](08_lateral_movement_and_pivoting_pivoting.png)
+![Pivoting Visualized](./assets/08_lateral_movement_and_pivoting_pivoting.png)
 
 #### Differences Between Lateral Movement and Pivoting
 
@@ -260,7 +260,7 @@ There are two key parts to the response:
 The server verifies the client's response by comparing it to the expected response, derived from its stored NTLM hashes.
 If they match, the client is authenticated, allowing access to SMB resources.
 
-![NTLM Authentication](08_lateral_movement_and_pivoting_ntlm_authentication.png)
+![NTLM Authentication](./assets/08_lateral_movement_and_pivoting_ntlm_authentication.png)
 
 #### SMB Authentication via PsExec
 
