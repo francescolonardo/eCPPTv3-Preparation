@@ -1006,7 +1006,7 @@ The Cyber Kill Chain, developed by Lockheed Martin, is a framework used to descr
 It consists of several sequential stages, each representing a phase that an attacker must go through to achieve their objectives.
 Red teaming often involves the use of the Cyber Kill Chain framework to simulate and assess an organization’s defensive capabilities.
 
-![The Cyber Kill Chain](02_client_side_attacks_cyber_kill_chain.png)
+![The Cyber Kill Chain](./assets/02_client_side_attacks_cyber_kill_chain.png)
 
 #### Weaponization
 
@@ -1021,7 +1021,7 @@ Weaponization often involves combining various techniques and tools in a way tha
 - **Nature of Activities:** Resource development activities may include research, reconnaissance, and tool development. Weaponization involves creating and configuring attack payloads, crafting malicious files, and preparing exploit code.
 - **Output:** Resource development outputs tools, knowledge, and information about the target environment. Weaponization outputs actual attack payloads or techniques ready for deployment.
 
-![Adapted Client-Side Attack Methodology](02_client_side_attacks_adapted_methodology.png)
+![Adapted Client-Side Attack Methodology](./assets/02_client_side_attacks_adapted_methodology.png)
 
 ##### References and Resources
 
