@@ -80,7 +80,15 @@
 
 ### 05 [System Security and x86 Assembly Fundamentals](./05_system_security_and_x86_assembly_fundamentals.md)
 
-- [x] 
+- [x] Architecture Fundamentals
+	- [x] CPU Architecture and Components
+	- [x] CPU Registers
+	- [x] Process Memory
+	- [x] The Stack
+- [x] x86 Assembly Fundamentals
+	- [x] Assemblers and Compilers
+	- [x] Introduction to x86 Assembly
+	- [x] Basic x86 Assembly Programming
 
 ### 06 [Buffer Overflows](./06_buffer_overflows.md)
 
