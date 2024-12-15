@@ -99,7 +99,7 @@ Different CPU architectures have their own instruction sets and assembly languag
 
 For example, x86 assembly language is used for Intel and AMD processors, while ARM assembly language is used for ARM-based processors.
 
-![CPU Architecture](05_system_security_and_x86_assembly_fundamentals_cpu_architecture.png)
+![CPU Architecture](./assets/05_system_security_and_x86_assembly_fundamentals_cpu_architecture.png)
 
 #### CPU Components
 
@@ -242,7 +242,7 @@ Process memory is typically divided into segments, each serving a specific purpo
 
 When a process runs, it is typically organized in memory as shown in the figure below.
 
-![Memory Segmentation](05_system_security_and_x86_assembly_fundamentals_memory_segmentation.png)
+![Memory Segmentation](./assets/05_system_security_and_x86_assembly_fundamentals_memory_segmentation.png)
 
 The Text region, or instruction segment, is fixed by the program and contains the program code (instructions). This region is marked as read-only since the program should not change during execution.
 
@@ -299,7 +299,7 @@ Knowing the limits of the memory allowed the programmer to know how big the heap
 
 It was decided that the Heap would start from lower addresses and grow upwards and the Stack would start from the end of the memory and grow downward.
 
-![The Stack](05_system_security_and_x86_assembly_fundamentals_the_stack.png)
+![The Stack](./assets/05_system_security_and_x86_assembly_fundamentals_the_stack.png)
 
 As previously mentioned, the stack is a LIFO structure, and the most fundamental operations are the PUSH and POP.
 
@@ -342,7 +342,7 @@ A PUSH is executed, and the ESP register is modified.
 **Ending value**:
 The ESP points to the top of the stack -4.
 
-![PUSH Example 1](05_system_security_and_x86_assembly_fundamentals_push_example_1.png)
+![PUSH Example 1](./assets/05_system_security_and_x86_assembly_fundamentals_push_example_1.png)
 
 ##### PUSH Example 2
 
@@ -358,7 +358,7 @@ ESP points to the following memory address: 0x0028FF80.
 **Ending value**:
 ESP points to the following memory address: 0x0028FF7C.
 
-![PUSH Example 2](05_system_security_and_x86_assembly_fundamentals_push_example_2.png)
+![PUSH Example 2](./assets/05_system_security_and_x86_assembly_fundamentals_push_example_2.png)
 
 ##### POP Example 1
 
@@ -372,7 +372,7 @@ After the PUSH 1, the ESP points to the following memory address: 0x0028FF7C.
 **Ending value**:
 ESP points to the following memory address: 0x0028FF80. It returns to its original value.
 
-![POP Example 1](05_system_security_and_x86_assembly_fundamentals_pop_example_1.png)
+![POP Example 1](./assets/05_system_security_and_x86_assembly_fundamentals_pop_example_1.png)
 
 ### Stack Frames - Theory
 
@@ -440,35 +440,35 @@ Once initialized, the stack pointer is set to the top of the stack and a new mai
 
 Our stack will then look like the following:
 
-![Stack Frames - Example (Step 1)](05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step1.png)
+![Stack Frames - Example (Step 1)](./assets/05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step1.png)
 
 ##### Step 2
 
 Once inside main(), the first instruction that executes is a call to the function named a().
 Once again, the stack pointer is set to the top of the stack of main() and a new stack frame for a() is created on the stack.
 
-![Stack Frames - Example (Step 2)](05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step2.png)
+![Stack Frames - Example (Step 2)](./assets/05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step2.png)
 
 ##### Step 3
 
 Once the function a() starts, the first instruction is a call to the function named b().
 Here again, the stack pointer is set, and a new stack frame for b() will be pushed on the top of the stack.
 
-![Stack Frames - Example (Step 3)](05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step3.png)
+![Stack Frames - Example (Step 3)](./assets/05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step3.png)
 
 ##### Step 4
 
 The function b() does nothing and just returns.
 When the function completes, the stack pointer is moved to its previous location, and the program returns to the stack frame of a() and continues with the next instruction.
 
-![Stack Frames - Example (Step 4)](05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step4.png)
+![Stack Frames - Example (Step 4)](./assets/05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step4.png)
 
 ##### Step 5
 
 The next instruction executed is the return statement contained in a().
 The a() stack frame is popped, the stack pointer is reset, and we will get back in the main() stack frame.
 
-![Stack Frames - Example (Step 5)](05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step5.png)
+![Stack Frames - Example (Step 5)](./assets/05_system_security_and_x86_assembly_fundamentals_stack_frames_example_step5.png)
 
 This was a quick overview of how stack frames work, but for buffer overflows, we need to go into more detail as to what information is stored, where it is stored and how the registers are updated.
 
@@ -498,7 +498,7 @@ While the assembly instructions and the machine code have a one-to-one correspon
 
 <u>Once the assembler has created the object file, a linker is needed in order to create the actual executable file. What a linker does is take one or more object files and combine them to create the executable file</u>.
 
-![Assembler and Linker Process](05_system_security_and_x86_assembly_fundamentals_assembler_linker_process.png)
+![Assembler and Linker Process](./assets/05_system_security_and_x86_assembly_fundamentals_assembler_linker_process.png)
 
 #### Compilers
 
@@ -518,9 +518,9 @@ Different CPU architectures have their own instruction sets and assembly languag
 
 For example, x86 assembly language is used for Intel and AMD processors, while ARM assembly language is used for ARM-based processors.
 
-![Assembly to Machine Language Translation](05_system_security_and_x86_assembly_fundamentals_assembly_translation.png)
+![Assembly to Machine Language Translation](./assets/05_system_security_and_x86_assembly_fundamentals_assembly_translation.png)
 
-![Compilation Process](05_system_security_and_x86_assembly_fundamentals_compilation_process.png)
+![Compilation Process](./assets/05_system_security_and_x86_assembly_fundamentals_compilation_process.png)
 
 #### CPU Specific Assembly Languages
 
