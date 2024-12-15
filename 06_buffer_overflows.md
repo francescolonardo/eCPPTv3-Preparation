@@ -54,7 +54,7 @@ A buffer overflow can be likened to pouring 5 gallons of water into a 4-gallon b
 
 One common place you can see this is either online in Last Name fields of a registration form.
 
-![Buffer Overflow Example 1](06_buffer_overflows_example1.png)
+![Buffer Overflow Example 1](./assets/06_buffer_overflows_example1.png)
 
 In this example, the "last name" field has five boxes.
 
@@ -70,7 +70,7 @@ Suppose the computer allocates a buffer of 40 bytes of memory to store 10 intege
 
 An attacker can test for a buffer overflow by sending the computer 11 integers (a total of 44 bytes) as input.
 
-![Buffer Overflow Example 2](06_buffer_overflows_example1.png)
+![Buffer Overflow Example 2](./assets/06_buffer_overflows_example1.png)
 
 Whatever was in the location after the ten 40 bytes (allocated for our buffer), gets overwritten with the 11th integer of the attacker’s input.
 
@@ -150,14 +150,14 @@ While this is happening, it will also be overwriting all the data in those memor
 As you can see in the stack representation, this data includes the EBP, the EIP and all the other bytes related to the previous stack frame.
 Therefore, at the end of the `strcpy` instructions, our stack will look like the following:
 
-![Buffer Overflow Stack 1](06_buffer_overflows_stack1.png)
+![Buffer Overflow Stack 1](./assets/06_buffer_overflows_stack1.png)
 
 **What can a pentester do with this?**
 Since the EIP has been overwritten with `AAAA`, once the epilogue takes place, the program will try to return to a completely wrong address.
 Remember that EIP points to the next instruction. An attacker can craft the payload in the input of the program to get the control of the program flow and return the function to a specific memory address location.
 This is where it is important to know memory addresses of certain registers.
 
-![Buffer Overflow Stack 2](06_buffer_overflows_stack2.png)
+![Buffer Overflow Stack 2](./assets/06_buffer_overflows_stack2.png)
 
 #### Triggering a Buffer Overflow - Practical Demo
 

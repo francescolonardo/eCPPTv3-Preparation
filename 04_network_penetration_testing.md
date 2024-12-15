@@ -73,13 +73,13 @@
 
 ### Active Information Gathering - Theory
 
-![Penetration Testing Methodology](04_network_penetration_testing_methodology.png)
+![Penetration Testing Methodology](./assets/04_network_penetration_testing_methodology.png)
 
 Active information gathering, in the context of penetration testing, refers to the phase of the assessment where the tester actively interacts with the target system or network to collect data and identify potential vulnerabilities.
 
 This phase involves techniques that go beyond passive reconnaissance (where information is gathered without directly interacting with the target) and may include activities such as scanning, probing, and direct interaction with network services.
 
-![Scanning/Network Mapping](04_network_penetration_testing_network_mapping.png)
+![Scanning/Network Mapping](./assets/04_network_penetration_testing_network_mapping.png)
 
 ### Networking Fundamentals - Theory
 
@@ -98,7 +98,7 @@ These electrical signals are then interpreted as bits (zeros and ones) that make
 
 Every packet in every protocol has the following structure.
 
-![Network Packet Structure](04_network_penetration_testing_network_packet_structure.png)
+![Network Packet Structure](./assets/04_network_penetration_testing_network_packet_structure.png)
 
 - The **header** has a protocol-specific structure: this ensures that the receiving host can correctly interpret the payload and handle the overall communication.
 - The **payload** is the actual information being sent . It could be something like part of an email message or the content of a file during a download.
@@ -146,7 +146,7 @@ The first job for the penetration tester will involve determining which of the 6
 
 We need a way to map out an unknown network into something more useful, In this example, the pentester is connecting to a remote network via the internet.
 
-![Why Map a Network?](04_network_penetration_testing_map_a_network.png)
+![Why Map a Network?](./assets/04_network_penetration_testing_map_a_network.png)
 
 In this example, we do not know anything about the target network, the objective of network mapping is to develop a picture of the network architecture and the systems that make up the network as a whole.
 
@@ -4683,7 +4683,7 @@ You are hired by a small company to perform a security assessment. Your customer
 2. You are in a production network, so you should not lock any user account by guessing their usernames and passwords.
 
 The following image represents the LAB environment:
-![DNS and SMB Relay Attack - Lab](04_network_penetration_testing_dns_and_smb_relay_attack_lab.png)
+![DNS and SMB Relay Attack - Lab](./assets/04_network_penetration_testing_dns_and_smb_relay_attack_lab.png)
 
 **Goals**
 - Exploitation using **SMB Relay Attack**.
@@ -4703,7 +4703,7 @@ Launch an attack using the **SMB Relay Exploit** in a way that once the Client (
 
 This is a graphic that represents how this attack should work:
 
-![SMB Relay Attack](04_network_penetration_testing_smb_relay_attack.png)
+![SMB Relay Attack](./assets/04_network_penetration_testing_smb_relay_attack.png)
 
 1. Client (Windows 7) issues a SMB connection to **\\\\fileserver.sportsfoo.com\\finance$** at every 30 seconds or so.
 2. The attacker machine intercepts this request and spoofs the IP address of **fileserver.sportsfoo.com**.
@@ -5214,7 +5214,7 @@ C:\flag.txt ←
 c5b7da8ca7d051749cd5d3e1e741ef91 ←
 ```
 
-### Linux Black-Box Penetration Test (with Nmap, Metasploit) - Lab
+### Linux Exploitation: Black-Box Penetration Test (with Nmap, Metasploit) - Lab
 
 #### Lab Environment
 
@@ -5755,7 +5755,7 @@ NTLM improves upon LM in the following ways:
 - Case sensitive.
 - Allows the use of symbols and Unicode characters.
 
-![NTLM Process](04_network_penetration_testing_ntlm_process.png)
+![NTLM Process](./assets/04_network_penetration_testing_ntlm_process.png)
 
 #### Dumping and Cracking NTLM Hashes
 
@@ -6553,7 +6553,7 @@ host         origin       service        public         private                 
 10.4.20.107  10.4.20.107  445/tcp (smb)  bob            aad3b435b51404eeaad3b435b51404ee:5835048ce94ad0564e29a924a03510ef         NTLM hash     nt,lm       password1 ←
 ```
 
-### Windows Black-Box Penetration Test (with Nmap, Metasploit, proxychains, xfreerdp)
+### Windows Post-Exploitation: Black-Box Penetration Test (with Nmap, Metasploit, proxychains, xfreerdp)
 
 #### Lab Environment
 
