@@ -42,6 +42,7 @@
 	Demonstrate proficiency in leveraging persistence techniques like Silver Ticket and Golden Ticket attacks in order to maintain access to compromised systems within Active Directory environments.
 
 ---
+---
 
 ## Active Directory Primer
 
@@ -203,7 +204,7 @@ These protocols play a crucial role in ensuring the confidentiality, integrity, 
 - <u>Single Sign-On (SSO)</u>: Users authenticate once and can access multiple resources without re-entering credentials.
 - Ticket-based: <u>Authentication exchanges rely on encrypted tickets</u>, reducing the risk of credential theft.
 
-![Kerberos Authentication Steps](active_directory_kerberos_authentication_steps.png)
+![Kerberos Authentication Steps](./assets/09_active_directory_penetration_testing_kerberos_authentication_steps.png)
 
 ##### NTLM
 
@@ -219,7 +220,7 @@ These protocols play a crucial role in ensuring the confidentiality, integrity, 
 - Simplicity: NTLM authentication does not require the complexity of Kerberos, making it easier to implement in certain environments.
 - Security: NTLM has <u>security limitations</u> compared to Kerberos, including susceptibility to pass-the-hash attacks and lack of mutual authentication.
 
-![NTLM Authentication Steps](active_directory_ntlm_authentication_steps.png)
+![NTLM Authentication Steps](./assets/09_active_directory_penetration_testing_ntlm_authentication_steps.png)
 
 ### Trees, Forests and Trusts - Theory
 
@@ -253,7 +254,7 @@ Domains in a forest trust each other, and trusts can extend outside the forest.
 
 Active Directory (AD) penetration testing assesses the security of an organization's AD infrastructure. It simulates real-world attacks to find vulnerabilities, weaknesses, and misconfigurations.
 
-![Active Directory Kill Chain](active_directory_kill_chain.png)
+![Active Directory Kill Chain](./assets/09_active_directory_penetration_testing_kill_chain.png)
 
 #### Testing Phases
 
