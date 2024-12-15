@@ -212,7 +212,7 @@ An increasingly popular trend with centralized C2 infrastructure is the use of a
 
 This increases the complexity of the adversaries C2 infrastructure and makes it much more complex and time consuming to identify the primary C2 server being used to communicate with compromised hosts.
 
-![Centralized C2 Model](10_command_and_control_centralized_c2_model.png)
+![Centralized C2 Model](./assets/10_command_and_control_centralized_c2_model.png)
 
 ##### P2P C2 Model
 
@@ -222,7 +222,7 @@ In this model, no single member of the botnet network is the master C2 server ma
 
 A P2P C2 model typically utilizes a single compromised host to maintain communication with the C2 server, whereby, all other compromised hosts communicate over a botnet network and transmit information through the single egress host.
 
-![P2P C2 Model](10_command_and_control_p2p_c2_model.png)
+![P2P C2 Model](./assets/10_command_and_control_p2p_c2_model.png)
 
 ##### Overt/Out of Band C2 Model
 
@@ -331,7 +331,7 @@ Adversaries/Red Teamers will typically utilize the following methodology when se
 3. The C2 server receives the request from Cloudflare and sends a response with commands, which is also proxied through Cloudflare.
 4. The response containing commands is then received by the agent via Cloudflare.
 
-![Domain Fronting Weaponized](10_command_and_control_domain_fronting_weaponized.png)
+![Domain Fronting Weaponized](./assets/10_command_and_control_domain_fronting_weaponized.png)
 
 **Why does it work?**
 
