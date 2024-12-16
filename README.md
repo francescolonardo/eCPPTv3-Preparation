@@ -176,12 +176,12 @@
 	- [x] Introduction to Starkiller
 	- [x] Red Team Operations with PowerShell-Empire
 	- [x] Red Team Operations with Starkiller
-- [x] Custom C2 Protocol
-	- [x] Custom C2 Protocol (with Merlin)
 - [x] C2 Frameworks: Armitage
 	- [x] Introduction to Armitage
 	- [x] Port Scanning and Enumeration with Armitage
 	- [x] Exploitation and Post Exploitation with Armitage
+- [x] Custom C2 Protocol
+	- [x] Custom C2 Protocol (with Merlin)
 
 ---
 
