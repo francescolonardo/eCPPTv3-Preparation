@@ -15,7 +15,7 @@
 	- [x] Leveraging WMI for Persistence (with Get-WmiObject, Invoke-WmiMethod, PowerLurk)
 	- [x] PowerShell-Empire for Persistence
 	- [x] Windows Black-Box Penetration Test (with Nmap, Metasploit, PowerShell-Empire, proxychains)
-	- [x] Antivirus Evasion (with Shellter)
+- [x] Antivirus Evasion (with Shellter)
 
 ### 02 [Client-Side Attacks](./02_client_side_attacks.md)
 
