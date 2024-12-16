@@ -4,8 +4,18 @@
 
 ### 01 [PowerShell for Pentesters](./01_powershell_for_pentesters.md)
 
-- [x]
-- 
+- [x] PowerShell Fundamentals
+- [x] PowerShell for Pentesting
+	- [x] Download and Execution (with Net.WebClient)
+	- [x] PowerShell Code Obfuscation (with Invoke-Obfuscation)
+	- [x] Information Gathering and Reconnaissance with PowerShell (with Invoke-Portscan, Get-HttpStatus, Invoke-ARPScan)
+	- [x] Post-Exploitation with PowerShell (with Nishang, PowerSploit, psgetsystem)
+	- [x] Metasploit to Create PowerShell Payloads
+	- [x] UAC Bypass with PowerShell Script
+	- [x] Leveraging WMI for Persistence (with Get-WmiObject, Invoke-WmiMethod, PowerLurk)
+	- [x] PowerShell-Empire for Persistence
+	- [x] Windows Black-Box Penetration Test (with Nmap, Metasploit, PowerShell-Empire, proxychains)
+	- [x] Antivirus Evasion (with Shellter)
 
 ### 02 [Client-Side Attacks](./02_client_side_attacks.md)
 
