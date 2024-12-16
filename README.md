@@ -80,7 +80,7 @@
 	- [x] Windows Exploitation: DNS and SMB Relay Attack (with dnsspoof, arpspoof, Metasploit)
 	- [x] Windows Exploitation: MSSQL DB User Impersonation to RCE (with Nmap, impacket-mssqlclient)
 - [x] Linux Exploitation
-	- [x] Linux Black-Box Penetration Test (with Nmap, Metasploit)
+	- [x] Linux Exploitation: Black-Box Penetration Test (with Nmap, Metasploit)
 - [x] Windows Post-Exploitation
 	- [x] Windows Post-Exploitation: Dumping and Cracking NTLM Hashes (with Nmap, Metasploit, JohntheRipper/Hashcat)
 	- [x] Windows Black-Box Penetration Test (with Nmap, Metasploit, proxychains, xfreerdp)
