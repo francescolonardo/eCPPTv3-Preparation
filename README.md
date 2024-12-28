@@ -1,8 +1,14 @@
 # eLearnSecurity Certified Professional Penetration Tester (eCPPTv3) Preparation
 
-## Resource Development and Initial Access
+<div>
+	<img src="https://assets.ine.com/certifications/badges/eCPPT.png" alt="eCPPT Logo" width="150" height="auto">
+</div>
 
-### 01 [PowerShell for Pentesters](./01_powershell_for_pentesters.md)
+## Learning Path Topics
+
+### Resource Development and Initial Access
+
+#### 01 [PowerShell for Pentesters](./01_powershell_for_pentesters.md)
 
 - [x] PowerShell Fundamentals
 - [x] PowerShell for Pentesting
@@ -17,7 +23,7 @@
 	- [x] Windows Black-Box Penetration Test (with Nmap, Metasploit, PowerShell-Empire, proxychains)
 - [x] Antivirus Evasion (with Shellter)
 
-### 02 [Client-Side Attacks](./02_client_side_attacks.md)
+#### 02 [Client-Side Attacks](./02_client_side_attacks.md)
 
 - [x] Introduction to Client-Side Attacks
 - [x] Client-Side Information Gathering and Fingerprinting
@@ -41,9 +47,9 @@
 - [x] Browser Attacks
 	- [x] Browser-Based Attacks (with BeEF)
 
-## Web Application Attacks
+### Web Application Attacks
 
-### 03 [Web Application Penetration Testing](./03_web_application_penetration_testing.md)
+#### 03 [Web Application Penetration Testing](./03_web_application_penetration_testing.md)
 
 - [x] Passive Information Gathering
 	- [x] Ownership and IP Addresses Discovery (with WHOIS)
@@ -60,9 +66,9 @@
 - [x] Identifying and Exploiting XSS Vulnerabilities (Stored, Reflected, DOM-Based)
 - [x] Identifying and Exploiting SQLi Vulnerabilities (Error-Based, Union-Based)
 
-## Network Security
+### Network Security
 
-### 04 [Network Penetration Testing](./04_network_penetration_testing.md)
+#### 04 [Network Penetration Testing](./04_network_penetration_testing.md)
 
 - [x] Host Discovery and Port Scanning
 	- [x] Host Discovery (with FPing/Nmap)
@@ -87,9 +93,9 @@
 - [x] MITM and Network-Based Attacks
 - [x] Antivirus Evasion (with UPX and Veil-Framework)
 
-## Exploit Development
+### Exploit Development
 
-### 05 [System Security and x86 Assembly Fundamentals](./05_system_security_and_x86_assembly_fundamentals.md)
+#### 05 [System Security and x86 Assembly Fundamentals](./05_system_security_and_x86_assembly_fundamentals.md)
 
 - [x] Architecture Fundamentals
 	- [x] CPU Architecture and Components
@@ -101,7 +107,7 @@
 	- [x] Introduction to x86 Assembly
 	- [x] Basic x86 Assembly Programming
 
-### 06 [Buffer Overflows](./06_buffer_overflows.md)
+#### 06 [Buffer Overflows](./06_buffer_overflows.md)
 
 - [x] Buffer Overflow Fundamentals
 - [x] Finding Buffer Overflow Vulnerabilities
@@ -109,9 +115,9 @@
 - [x] Windows Structured Exception Handling (SEH) Overflow
 - [x] Windows SEH Overflow (with SPIKE)
 
-## Post-Exploitation
+### Post-Exploitation
 
-### 07 [Privilege Escalation](./07_privilege_escalation.md)
+#### 07 [Privilege Escalation](./07_privilege_escalation.md)
 
 - [x] Introduction to Privilege Escalation
 - [x] Windows Privilege Escalation Techniques
@@ -129,7 +135,7 @@
 	- [x] Misconfigured SUDO Permissions
 	- [x] Shared Library Injection
 
-### 08 [Lateral Movement and Pivoting](./08_lateral_movement_and_pivoting.md)
+#### 08 [Lateral Movement and Pivoting](./08_lateral_movement_and_pivoting.md)
 
 - [x] Introduction to Lateral Movement and Pivoting
 - [x] Windows Lateral Movement
@@ -151,9 +157,9 @@
 - [x] Linux Lateral Movement and Pivoting
 	- [x] Linux Lateral Movement and Pivoting: Black-Box Penetration Test (with SOCKS Proxy, SSH Tunneling, Metasploit)
 
-## Red Teaming
+### Red Teaming
 
-### 09 [Active Directory Penetration Testing](./09_active_directory_penetration_testing.md)
+#### 09 [Active Directory Penetration Testing](./09_active_directory_penetration_testing.md)
 
 - [x] Active Directory Penetration Testing Methodology
 - [x] Active Directory Enumeration (with BloodHound, PowerView)
@@ -161,7 +167,7 @@
 - [x] Active Directory Lateral Movement (Pass-the-Hash, Pass-the-Ticket)
 - [x] Active Directory Persistence (Silver Ticket, Golden Ticket)
 
-## 10 [Command and Control (C2/C&C)](./10_command_and_control.md)
+### 10 [Command and Control (C2/C&C)](./10_command_and_control.md)
 
 - [x] Command and Control Primer
 	- [x] Introduction to Command and Control
