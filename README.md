@@ -167,7 +167,7 @@
 - [x] Active Directory Lateral Movement (Pass-the-Hash, Pass-the-Ticket)
 - [x] Active Directory Persistence (Silver Ticket, Golden Ticket)
 
-### 10 [Command and Control (C2/C&C)](./10_command_and_control.md)
+#### 10 [Command and Control (C2/C&C)](./10_command_and_control.md)
 
 - [x] Command and Control Primer
 	- [x] Introduction to Command and Control
