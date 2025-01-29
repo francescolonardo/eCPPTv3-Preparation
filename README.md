@@ -4,6 +4,16 @@
 	<img src="https://assets.ine.com/certifications/badges/eCPPT.png" alt="eCPPT Logo" width="150" height="auto">
 </div>
 
+## Introduction
+
+This repository is dedicated to documenting my preparation for the **eCPPTv3** exam. It contains comprehensive notes and detailed walkthroughs for various topics covered in the exam curriculum, including **PowerShell for Pentesters**, **Client-Side Attacks**, **Web Application Penetration Testing**, **Network Security**, **Exploit Development**, and **Post-Exploitation Techniques**.
+
+The notes are structured to provide a clear understanding of each concept, with practical examples, *input commands*, and corresponding *outputs*. This approach allows readers to grasp the techniques and methodologies without needing to replicate the exact steps themselves.
+
+Each section includes practical examples, key concepts, and step-by-step guides to help master the tools, techniques, and methodologies used in penetration testing and red teaming. By working through these topics, I aim to sharpen my skills and gain a deeper understanding of offensive security techniques.
+
+Whether you're preparing for the eCPPTv3 exam or looking to enhance your penetration testing knowledge, these notes and resources are designed to help you progress in your cybersecurity journey. Feel free to use this repository as a study guide or a reference to further your understanding of the field.
+
 ## Learning Path Topics
 
 ### Resource Development and Initial Access
