@@ -1,4 +1,4 @@
-# eLearnSecurity Certified Professional Penetration Tester (eCPPTv3) Preparation
+# Certified Professional Penetration Tester (eCPPTv3) - Study Material
 
 <div>
 	<img src="https://assets.ine.com/certifications/badges/eCPPT.png" alt="eCPPT Logo" width="150" height="auto">
