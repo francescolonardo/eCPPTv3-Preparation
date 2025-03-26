@@ -1,0 +1,315 @@
+----------------------------------------------------------------------------
+Findjmp, Eeye, I2S-LaB
+Findjmp2, Hat-Squad
+Scanning kernelbase.dll for code useable with the ESP register
+----------------------------------------------------------------------------
+0x75C29560	push ESP - ret
+0x75C295B0	push ESP - ret
+0x75C41DB5	call ESP
+0x75C4201D	call ESP
+0x75C5311D	call ESP
+0x75C531E5	call ESP
+0x75C5321D	call ESP
+0x75C53225	call ESP
+0x75C5322D	call ESP
+0x75C53235	call ESP
+0x75C5323D	call ESP
+0x75C53245	call ESP
+0x75C53295	call ESP
+0x75C532BD	call ESP
+0x75C532C5	call ESP
+0x75C5331D	call ESP
+0x75C5337D	call ESP
+0x75C53385	call ESP
+0x75C5338D	call ESP
+0x75C53395	call ESP
+0x75C533F5	call ESP
+0x75C5340D	call ESP
+0x75C534C5	call ESP
+0x75C53525	call ESP
+0x75C535CD	call ESP
+0x75C535DD	call ESP
+0x75C5360D	call ESP
+0x75C53D6D	call ESP
+0x75C5CD55	call ESP
+0x75C5CD65	call ESP
+0x75C5CF65	call ESP
+0x75C5D1CD	call ESP
+0x75C5D2F5	call ESP
+0x75C5D32D	call ESP
+0x75C5E7BD	call ESP
+0x75C5E7C5	call ESP
+0x75C5E7CD	call ESP
+0x75C5E7D5	call ESP
+0x75C5E7ED	call ESP
+0x75C5E815	call ESP
+0x75C5E81D	call ESP
+0x75C5E825	call ESP
+0x75C5E835	call ESP
+0x75C5E83D	call ESP
+0x75C5E845	call ESP
+0x75C5E855	call ESP
+0x75C5E85D	call ESP
+0x75C5E865	call ESP
+0x75C5E86D	call ESP
+0x75C5E87D	call ESP
+0x75C5E885	call ESP
+0x75C5E89D	call ESP
+0x75C5E8A5	call ESP
+0x75C5E8CD	call ESP
+0x75C5E90D	call ESP
+0x75C5E915	call ESP
+0x75C5E91D	call ESP
+0x75C5E925	call ESP
+0x75C5E94D	call ESP
+0x75C5E955	call ESP
+0x75C5E95D	call ESP
+0x75C5E965	call ESP
+0x75C5E96D	call ESP
+0x75C5E97D	call ESP
+0x75C5E98D	call ESP
+0x75C5E995	call ESP
+0x75C5E99D	call ESP
+0x75C5E9A5	call ESP
+0x75C5E9AD	call ESP
+0x75C5EB8D	call ESP
+0x75C5EC6D	call ESP
+0x75C5EC75	call ESP
+0x75C5ED8D	call ESP
+0x75C5ED95	call ESP
+0x75C5EDA5	call ESP
+0x75C5EDAD	call ESP
+0x75C5EDC5	call ESP
+0x75C5EEAD	call ESP
+0x75C5EF2D	call ESP
+0x75C610B0	push ESP - ret
+0x75CA13DD	call ESP
+0x75CAC5E9	call ESP
+0x75D289A7	jmp ESP
+0x75D4CF20	pop ESP - pop - ret
+0x75E223D4	call ESP
+----------------------------------------------------------------------------
+Finished Scanning kernelbase.dll for code useable with the ESP register
+Found 85 usable addresses
+----------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------
+Findjmp, Eeye, I2S-LaB
+Findjmp2, Hat-Squad
+Scanning kernel32.dll for code useable with the ESP register
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+Finished Scanning kernel32.dll for code useable with the ESP register
+Found 0 usable addresses
+----------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------
+Findjmp, Eeye, I2S-LaB
+Findjmp2, Hat-Squad
+Scanning kernelbase.dll for code useable with the ESP register
+----------------------------------------------------------------------------
+0x75C29560	push ESP - ret
+0x75C295B0	push ESP - ret
+0x75C41DB5	call ESP
+0x75C4201D	call ESP
+0x75C5311D	call ESP
+0x75C531E5	call ESP
+0x75C5321D	call ESP
+0x75C53225	call ESP
+0x75C5322D	call ESP
+0x75C53235	call ESP
+0x75C5323D	call ESP
+0x75C53245	call ESP
+0x75C53295	call ESP
+0x75C532BD	call ESP
+0x75C532C5	call ESP
+0x75C5331D	call ESP
+0x75C5337D	call ESP
+0x75C53385	call ESP
+0x75C5338D	call ESP
+0x75C53395	call ESP
+0x75C533F5	call ESP
+0x75C5340D	call ESP
+0x75C534C5	call ESP
+0x75C53525	call ESP
+0x75C535CD	call ESP
+0x75C535DD	call ESP
+0x75C5360D	call ESP
+0x75C53D6D	call ESP
+0x75C5CD55	call ESP
+0x75C5CD65	call ESP
+0x75C5CF65	call ESP
+0x75C5D1CD	call ESP
+0x75C5D2F5	call ESP
+0x75C5D32D	call ESP
+0x75C5E7BD	call ESP
+0x75C5E7C5	call ESP
+0x75C5E7CD	call ESP
+0x75C5E7D5	call ESP
+0x75C5E7ED	call ESP
+0x75C5E815	call ESP
+0x75C5E81D	call ESP
+0x75C5E825	call ESP
+0x75C5E835	call ESP
+0x75C5E83D	call ESP
+0x75C5E845	call ESP
+0x75C5E855	call ESP
+0x75C5E85D	call ESP
+0x75C5E865	call ESP
+0x75C5E86D	call ESP
+0x75C5E87D	call ESP
+0x75C5E885	call ESP
+0x75C5E89D	call ESP
+0x75C5E8A5	call ESP
+0x75C5E8CD	call ESP
+0x75C5E90D	call ESP
+0x75C5E915	call ESP
+0x75C5E91D	call ESP
+0x75C5E925	call ESP
+0x75C5E94D	call ESP
+0x75C5E955	call ESP
+0x75C5E95D	call ESP
+0x75C5E965	call ESP
+0x75C5E96D	call ESP
+0x75C5E97D	call ESP
+0x75C5E98D	call ESP
+0x75C5E995	call ESP
+0x75C5E99D	call ESP
+0x75C5E9A5	call ESP
+0x75C5E9AD	call ESP
+0x75C5EB8D	call ESP
+0x75C5EC6D	call ESP
+0x75C5EC75	call ESP
+0x75C5ED8D	call ESP
+0x75C5ED95	call ESP
+0x75C5EDA5	call ESP
+0x75C5EDAD	call ESP
+0x75C5EDC5	call ESP
+0x75C5EEAD	call ESP
+0x75C5EF2D	call ESP
+0x75C610B0	push ESP - ret
+0x75CA13DD	call ESP
+0x75CAC5E9	call ESP
+0x75D289A7	jmp ESP
+0x75D4CF20	pop ESP - pop - ret
+0x75E223D4	call ESP
+----------------------------------------------------------------------------
+Finished Scanning kernelbase.dll for code useable with the ESP register
+Found 85 usable addresses
+----------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------
+Findjmp, Eeye, I2S-LaB
+Findjmp2, Hat-Squad
+Scanning kernelbase.dll for code useable with the esp register
+----------------------------------------------------------------------------
+0x75C29560	push esp - ret
+0x75C295B0	push esp - ret
+0x75C41DB5	call esp
+0x75C4201D	call esp
+0x75C5311D	call esp
+0x75C531E5	call esp
+0x75C5321D	call esp
+0x75C53225	call esp
+0x75C5322D	call esp
+0x75C53235	call esp
+0x75C5323D	call esp
+0x75C53245	call esp
+0x75C53295	call esp
+0x75C532BD	call esp
+0x75C532C5	call esp
+0x75C5331D	call esp
+0x75C5337D	call esp
+0x75C53385	call esp
+0x75C5338D	call esp
+0x75C53395	call esp
+0x75C533F5	call esp
+0x75C5340D	call esp
+0x75C534C5	call esp
+0x75C53525	call esp
+0x75C535CD	call esp
+0x75C535DD	call esp
+0x75C5360D	call esp
+0x75C53D6D	call esp
+0x75C5CD55	call esp
+0x75C5CD65	call esp
+0x75C5CF65	call esp
+0x75C5D1CD	call esp
+0x75C5D2F5	call esp
+0x75C5D32D	call esp
+0x75C5E7BD	call esp
+0x75C5E7C5	call esp
+0x75C5E7CD	call esp
+0x75C5E7D5	call esp
+0x75C5E7ED	call esp
+0x75C5E815	call esp
+0x75C5E81D	call esp
+0x75C5E825	call esp
+0x75C5E835	call esp
+0x75C5E83D	call esp
+0x75C5E845	call esp
+0x75C5E855	call esp
+0x75C5E85D	call esp
+0x75C5E865	call esp
+0x75C5E86D	call esp
+0x75C5E87D	call esp
+0x75C5E885	call esp
+0x75C5E89D	call esp
+0x75C5E8A5	call esp
+0x75C5E8CD	call esp
+0x75C5E90D	call esp
+0x75C5E915	call esp
+0x75C5E91D	call esp
+0x75C5E925	call esp
+0x75C5E94D	call esp
+0x75C5E955	call esp
+0x75C5E95D	call esp
+0x75C5E965	call esp
+0x75C5E96D	call esp
+0x75C5E97D	call esp
+0x75C5E98D	call esp
+0x75C5E995	call esp
+0x75C5E99D	call esp
+0x75C5E9A5	call esp
+0x75C5E9AD	call esp
+0x75C5EB8D	call esp
+0x75C5EC6D	call esp
+0x75C5EC75	call esp
+0x75C5ED8D	call esp
+0x75C5ED95	call esp
+0x75C5EDA5	call esp
+0x75C5EDAD	call esp
+0x75C5EDC5	call esp
+0x75C5EEAD	call esp
+0x75C5EF2D	call esp
+0x75C610B0	push esp - ret
+0x75CA13DD	call esp
+0x75CAC5E9	call esp
+0x75D289A7	jmp esp
+0x75D4CF20	pop esp - pop - ret
+0x75E223D4	call esp
+----------------------------------------------------------------------------
+Finished Scanning kernelbase.dll for code useable with the esp register
+Found 85 usable addresses
+----------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------
+Findjmp, Eeye, I2S-LaB
+Findjmp2, Hat-Squad
+Scanning kernel32.dll for code useable with the esp register
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+Finished Scanning kernel32.dll for code useable with the esp register
+Found 0 usable addresses
+----------------------------------------------------------------------------
+
+
+
